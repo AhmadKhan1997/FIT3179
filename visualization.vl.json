@@ -6,7 +6,7 @@
   "height": 400,
   "projection": {"type": "equalEarth"},
   "data": {
-    "url": "https://raw.githubusercontent.com/AhmadKhan1997/FIT3179-Homework%209/india-states.json",
+    "url": "https://raw.githubusercontent.com/AhmadKhan1997/FIT3179-Homework9/main/india-states.json",
     "format": {"type": "topojson", "feature": "IND_adm1"}
   },
   "transform": [
@@ -14,7 +14,7 @@
       "lookup": "properties.NAME_1",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/AhmadKhan1997/FIT3179-Homework%209/RA2019_A2.csv"
+          "url": "https://raw.githubusercontent.com/AhmadKhan1997/FIT3179-Homework9/main/RA2019_A2.csv"
         },
         "key": "States/UTs",
         "fields": ["cases2016"]
